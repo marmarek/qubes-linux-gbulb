@@ -15,5 +15,6 @@ vm:
 
 source:
   files:
-  - url: https://files.pythonhosted.org/packages/source/g/gbulb/gbulb-@VERSION@.tar.gz
-    sha256: gbulb-@VERSION@.tar.gz.sha256
+  - git-url: https://github.com/beeware/gbulb.git
+    commit-id: 51c34224974d98fb91ffc91e856c691a94b1ab45
+    git-basename: gbulb-@VERSION@
